@@ -48,7 +48,7 @@ I hope to create an API endpoint for the algorithm I created in order to determi
 
 # How to Run It?
 
-Download. Run 'Yarn install' after in the project and run 'react-native run-ios' or 'run-android' depending on your simulator and the app should begin installing on your simulator or emulator
+Download. Run 'Yarn install' after in the project and run 'react-native run-ios' and the app should begin installing on your IOS emulator
 # How I built it
 I built this app using the hybrid application development platform called React Native. I used expo for faster testing and a better and managed workflow. I wrote this entire app in Javascript. Now to the construction of the main features of the app. For the Information feeds, I used a **News API with several endpoints** to gather information in relation to its respective topic by reliable sources. For the search page, I used **react-native-maps in order to gather the accurate location (long, lat, geolocation) of the user and create the maps UI**. Additionally, I used **Google Firebase as my backend** in order to store this data in a database where it would be accessible to the local authorities in real time. For the East people at a location and risk level , I used an **algorithm I created using multiple data points such as the population of the residing city**, the amount of users recorded in the database and density of the city. For the last page, I used individual reliable sources to provide Preparation resources to be ready for and prepared for emergency situations.
 
