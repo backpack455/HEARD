@@ -1,4 +1,4 @@
-#HEARD
+# HEARD
 
 Helping everyone get heard, avoid, and act against discrimination against minorities using geofencing, geocoding, location services, google cloud and apis to bring awareness to, avoid and act against.
 
@@ -6,7 +6,7 @@ Inspiration
 
 As a minority myself, as in many countries, we have all seen and been discriminated based on our differences and other people and this is cause that still has not been reduced to an optimal level. With all of these points in consideration, I felt as it is my responsibility to use my productive coding skills in order to develop a high level application in order to help people be heard, avoid and act against forms of racial discrimination.
 
-##Main Features of the App
+# Main Features of the App
 
 First here is the news feed in the home page tab. It allows end user to obtain powerful, unbiased and truthful sources speaking regarding the topics of race, discrimination and protests in regards to real world events and the ability to quickly view if you choose. Here you see:. Overall this section helps inform the user and spread awareness.
 
@@ -30,7 +30,7 @@ How I built it
 
 During the progression of this application, I built I primarily with already existing libraries which helped me style my elements quite quickly. I used libraries such as react-native native base, react-native-elements and react-native vector-icons. For the many apis I used in this project, I used change.org now deprecated api which allowed for the feed of petitions, a News API creating the feed of news, react-native maps api allowing for the maps UI, the Expo permissions and locations API making it very simple to take data points using their documentation, Google Firebase API to help me use a simple post method to post my data reducing tons of time and geolocation/geocoding api that came with expo permissions. All of these apis and libraries made it easier to make a high level application in such a tight time frame. Overall, I used APIs, Location Services, Geolocation, Geocoding, Google Firebase, to create an application for people to connect, use data to make decisions to go to a certain location, alert other users around them for help and take action using petitions and the technologies provided in the application.
 
-##Challenges I ran into
+# Challenges I ran into
 
 Some last second challenges I ran to was the manipulation of the database on Google Firebase. While creating the video in fact, I realize that some of the parameters were missing and were not being updated properly. I eventually realized that the naming conventions for the some of the parameters being updated both in the state and in firebase got mixed up. Unfortunately this took way to long and results in me having to cut the video up into two different sections. I stayed up until 1am and got it done. Thanks to all the great documentation and other tutorials I was able to effectively implement the rest. ##What I learned I learned a lot. Prior to this, I had not had experience with geolocation, geofencing and other location services which I found quite fascinating after I was able to fully learn them. I also learned how to upload large amounts of data to Google Firebase, which was easy with the help of tutorials, which I had previously thought was hard. Additionally, I learned new styling elements such as how to created rounded images and permissions to the images directory which I was not previously familiar with. At the beginning of this project, I did not think I would finish. However, I had learned that after you gain enough time with certain things and learn how to do it and push yourself to do it, you realize it is much easier than anticipated.
 
@@ -38,7 +38,7 @@ Theme and How This Promotes Social Good
 
 Overall, this application was created in order to help reduce racial discrimination
 
-##Design
+# Design
 
 I created a comprehensive and simple UI to make it easy for users to navigate and understand the purposes of the Application. Additionally, I used previously mentioned utilities in order to create a modern look.
 
@@ -46,7 +46,7 @@ What's next for HEARD (Helping Eliminate All Racial Discrimination) App
 
 I hope to create an API endpoint for the algorithm I created in order to determined the estimated occurrences of racial discriminations and calculated risk level rather than having it on the app. In the long term, this will reduce complexity if the app becomes larger.
 
-##How to Run It?
+# How to Run It?
 
 Download. Run 'Yarn install' after in the project and run 'react-native run-ios' or 'run-android' depending on your simulator and the app should begin installing on your simulator or emulator
 # How I built it
